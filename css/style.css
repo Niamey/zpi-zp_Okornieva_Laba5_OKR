@@ -9,6 +9,14 @@ body {
     background-color: #f5f5f5;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -79,6 +87,19 @@ h1 {
     text-align: center;
     margin-top: 15px;
     font-size: 16px;
+}
+
+/* Form Section Styling */
+.form-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.form-section > h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
 }
 
 /* Responsive */
